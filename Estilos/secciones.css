@@ -1,0 +1,53 @@
+.seccion {
+    display: block;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.contacto {
+    bottom: 10rem;
+    padding-bottom: 4rem;
+}
+
+.seccion-tel {
+    display: block;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 1rem;
+}
+
+.tel {
+    margin-bottom: 2rem;
+}
+
+.tel img {
+    display: block;
+    margin: auto;
+    width: 5%;
+    height: 5%;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.text-imagen {
+    padding-bottom: 8rem;
+}
+
+.text-imagen p {
+    margin: 1rem;
+}
+
+.email {
+    background-color: red;
+    margin-bottom: 3rem;
+}
+
+.email p {
+    padding: 2rem;
+    color: white;
+    font-family: 'Black And White Picture', sans-serif;
+    letter-spacing: 3px;
+}

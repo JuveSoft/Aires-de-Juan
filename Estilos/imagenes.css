@@ -1,0 +1,12 @@
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+img {
+    width: 100%;
+    max-width: 40rem;
+    min-width: 18rem;
+}
